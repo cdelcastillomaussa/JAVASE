@@ -21,9 +21,13 @@ public class Main {
         String especiality = sc.nextLine();
         my_doct.setEspeciality(especiality);
 
+        System.out.println("Ingrese email: ");
+        String email = sc.nextLine();
+        my_doct.setEmail(email);
+
         System.out.println("######[DOCTOR REGISTER]######\n"+"Id: "+my_doct.getId()
                 +"\nNombre: "+ my_doct.getName() +"\nEspecialidad: "
-                + my_doct.getEspeciality());
+                + my_doct.getEspeciality()+"\nEmail: "+my_doct.getEmail());
 
 
 

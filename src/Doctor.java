@@ -2,12 +2,14 @@ public class Doctor {
     private int id;
     private String name;
     private String especiality;
+    private String email;
 
 
     public Doctor(){
             this.id = id;
             this.name = name;
             this.especiality = especiality;
+            this.email = email;
         }
 
         public void setId(int identificacion){
@@ -30,4 +32,12 @@ public class Doctor {
     public String getEspeciality(){
         return especiality;
     }
+
+    public void setEmail(String email){
+        this.email = email;
+    }
+    public String getEmail(){
+        return email;
+    }
+
 }

@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -7,6 +8,7 @@ public class Main {
         System.out.println("***************DATOS DEL DOCTOR****************\n\t");
 
         System.out.println("Ingrese id->");
+        int aux_id = Integer.parseInt(JOptionPane.showInputDialog("ingrese id: "));
         int id = sc.nextInt();
         my_doct.setId(id);
 

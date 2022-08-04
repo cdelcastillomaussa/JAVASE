@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f8c7ef-cad9-4cd8-8450-7ee1f0c99f55" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/JAVASE" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/POO_platzi/JAVASE/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO_platzi/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO_platzi/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO_platzi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO_platzi/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,5 +56,16 @@
       <updated>1659545605390</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

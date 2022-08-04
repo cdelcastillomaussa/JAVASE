@@ -12,6 +12,25 @@ public class Doctor {
             this.email = email;
         }
 
+
+
+        /**
+         * Descripcion general de este constructor
+         * @autor Carlos Alberto Del Castillo Maussa <maussac13@gmail.com>
+         * @param id Descripcion: identificacion del doctor
+         * @param  name Descripcion: nombre del doctor
+         * @param especiality Descripcion: especialidad del doctor
+         * @param email Descipcion: correo del doctor
+         * @return Descipcion: Este es otro método constructor de la clase Doctor solo que
+         * esta parametrizado
+         * */
+        public Doctor(int id, String name, String especiality, String email){
+        this.id = id;
+        this.name = name;
+        this.especiality = especiality;
+        this.email = email;
+        }
+
         public void setId(int identificacion){
         this.id = identificacion;
         }
